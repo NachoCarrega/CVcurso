@@ -1,0 +1,43 @@
+.img-frame {
+  position: relative;
+  display: inline-block;
+}
+.img-frame img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* por defecto light mode */
+body {
+  
+  color: black;
+  background-color: whitesmoke;
+  
+}
+
+
+body > .container {
+
+  background-color: #cfe2ff2d;
+
+}
+
+/* estilos de dark mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode > .container {
+
+ background-color: #212529;
+
+}
+
+.dark-mode > #toggle-mode-button {
+
+  background-color: whitesmoke;
+
+}
